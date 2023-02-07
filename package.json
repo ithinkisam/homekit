@@ -1,0 +1,11 @@
+{
+    "name": "homekit",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "setup": "cd homekit-tasks; npm install"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
