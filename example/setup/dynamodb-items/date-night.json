@@ -1,0 +1,12 @@
+{
+    "guid": { "S": "abcd-1234-efgh-5678-ijkl" },
+    "description": { "S": "Date night" },
+    "frequency": {
+        "M": {
+            "every": { "N": "1" },
+            "unit": { "S": "WEEK" },
+            "dayOfWeek": { "S": "SUNDAY" },
+            "startTime": { "S": "19:30" }
+        }
+    }
+}

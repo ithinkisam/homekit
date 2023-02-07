@@ -1,0 +1,10 @@
+{
+    "guid": { "S": "abcd-1234-efgh-5678-mnop" },
+    "description": { "S": "Take car in for oil change" },
+    "frequency": {
+        "M": {
+            "every": { "N": "6" },
+            "unit": { "S": "MONTH" }
+        }
+    }
+}

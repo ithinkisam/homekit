@@ -1,0 +1,149 @@
+{
+    "items": [
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Date night",
+            "frequency": {
+                "every": 1,
+                "unit": "WEEK",
+                "dayOfWeek": "SUNDAY",
+                "startTime": "19:30"
+            }
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Take car in for oil change",
+            "frequency": {
+                "every": 6,
+                "unit": "MONTH"
+            }
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Pick up CSA",
+            "frequency": {
+                "every": 1,
+                "unit": "MONTH",
+                "nthWeekOfMonth": 3,
+                "dayOfWeek": "THURSDAY"
+            },
+            "metadata": {
+                "address": "123 Mountain Chicken Drive, Coon Rapids, MN 55448"
+            }
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Anna cleans",
+            "frequency": {
+                "every": 1,
+                "unit": "MONTH",
+                "nthWeekOfMonth": 2,
+                "dayOfWeek": "TUESDAY"
+            },
+            "subTasks": [
+                {
+                    "description": "Remove items from kitchen counter",
+                    "prerequisite": true
+                },
+                {
+                    "description": "Send Anna current priorities",
+                    "prerequisite": true
+                }
+            ]
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Reset fridge filter indicator",
+            "frequency": {
+                "every": 1,
+                "unit": "YEAR",
+                "date": {
+                    "month": "JANUARY",
+                    "day": 15
+                }
+            }
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Replace fridge filter",
+            "frequency": {
+                "every": 1,
+                "unit": "YEAR",
+                "date": {
+                    "month": "JULY",
+                    "day": 15
+                }
+            },
+            "subTasks": [
+                {
+                    "description": "Order filter from Amazon",
+                    "prerequisite": true
+                },
+                {
+                    "description": "Reset fridge filter indicator",
+                    "prerequisite": false
+                }
+            ]
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Change oil in lawnmower",
+            "frequency": {
+                "every": 1,
+                "unit": "YEAR",
+                "date": {
+                    "month": "MAY"
+                }
+            },
+            "subTasks": [
+                {
+                    "description": "Purchase small engine oil",
+                    "prerequisite": true
+                }
+            ]
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Swap out storm door screen for glass insert",
+            "frequency": {
+                "every": 1,
+                "unit": "YEAR",
+                "date": {
+                    "month": "NOVEMBER"
+                }
+            }
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Swap out storm door glass for screen insert",
+            "frequency": {
+                "every": 1,
+                "unit": "YEAR",
+                "date": {
+                    "month": "MAY"
+                }
+            }
+        },
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "File taxes",
+            "frequency": {
+                "every": 1,
+                "unit": "YEAR",
+                "date": {
+                    "month": "FEBRUARY"
+                }
+            },
+            "subTasks": [
+                {
+                    "description": "Purchase tax software",
+                    "prerequisite": true
+                },
+                {
+                    "description": "Gather tax documents",
+                    "prerequisite": true
+                }
+            ]
+        }
+    ]
+}

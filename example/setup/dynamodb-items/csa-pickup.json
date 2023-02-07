@@ -1,0 +1,12 @@
+{
+    "guid": { "S": "abcd-1299-efgh-5678-ijkl" },
+    "description": { "S": "Pick up CSA" },
+    "frequency": {
+        "M": {
+            "every": { "N": "1" },
+            "unit": { "S": "MONTH" },
+            "nthWeekOfMonth": { "N": "3" },
+            "dayOfWeek": { "S": "THURSDAY" }
+        }
+    }
+}

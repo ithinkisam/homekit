@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Organize master bedroom closet"
+    },
+    {
+      "id": 2,
+      "description": "Design basement bedroom closet system"
+    },
+    {
+      "id": 3,
+      "description": "Take car in for oil change",
+      "frequency": {
+        "every": 6,
+        "unit": "MONTH"
+      }
+    }
+  ]
+}

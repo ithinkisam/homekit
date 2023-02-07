@@ -1,0 +1,10 @@
+{
+    "items": [
+        {
+            "guid": "abcd-1234-efgh-5678-ijkl",
+            "description": "Date night",
+            "notificationDate": "2023-01-11T08:00:00.000Z-06:00",
+            "completionDate": "2023-01-11T08:04:00.000Z-06:00"
+        }
+    ]
+}
