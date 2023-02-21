@@ -9,14 +9,14 @@ defineProps({
 
 <template>
   <div class="dropdown">
-    <button
-      class="btn btn-secondary dropdown-toggle"
-      type="button"
+    <a
+      href="#"
+      class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
       data-bs-toggle="dropdown"
       aria-expanded="false">
       {{ label }}
-    </button>
-    <ul class="dropdown-menu">
+    </a>
+    <ul class="dropdown-menu text-small shadow">
       <slot />
     </ul>
   </div>

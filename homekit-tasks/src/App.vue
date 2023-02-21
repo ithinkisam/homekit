@@ -29,9 +29,19 @@ const currentView = computed(() => {
 
 <template>
   <div>
-    <div class="container">
-      <PrimaryNav />
-      <component :is="currentView" />
+    <div class="container-fluid">
+      <div class="row flex-nowrap">
+        <PrimaryNav />
+        <div class="col py-3">
+          <component :is="currentView" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
+
+<style>
+#app {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+</style>

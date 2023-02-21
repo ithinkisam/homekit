@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-      "setup": "cd homekit-tasks; npm install"
+      "tasks": "cd homekit-tasks; npm run dev",
+      "tasks:setup": "cd homekit-tasks; npm install"
     },
     "dependencies": {},
     "devDependencies": {}
