@@ -1,6 +1,7 @@
 <script setup>
 import { tasks } from "../../data/tasks.json";
 import TaskTable from "./TaskTable.vue";
+//this is a test
 </script>
 
 <template>
