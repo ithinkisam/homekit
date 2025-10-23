@@ -1,0 +1,27 @@
+recurring_event:
+  guid: string
+  title: string
+  description: string
+  frequency: object
+    every: number
+    unit: enum [WEEK, MONTH, YEAR]
+    nthWeekOfMonth: number
+    dayOfWeek: enum [MON, TUE, WED, THU, FRI, SAT, SUN]
+    date: object
+      month: enum [JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC]
+      day: number [1-31]
+  sub_tasks: array
+    description: string
+    prerequisite: bool
+  context: object
+    location: string
+
+event_instance:
+  guid: string
+  title: string
+  description: string
+  instance_details: object
+    notification_date: datetime
+    completion_date: datetime
+  sub_tasks: array
+    description: string

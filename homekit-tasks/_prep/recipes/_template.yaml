@@ -1,0 +1,28 @@
+Name: String
+Description: String
+Images: List(URL)
+Source: URL
+Metadata:
+  - Key: String
+    Value: String
+Tags:
+  - Key: String
+    Value: String
+Equipment:
+  - String
+  - String
+Components:
+  - Name: String (optional)
+    Ingredients:
+      - String
+      - String
+      - String
+Instructions:
+  - String
+  - String
+  - String
+Notes:
+  - String
+Nutrition:
+  - Key: Value
+  - Key: Value

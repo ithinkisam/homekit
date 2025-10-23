@@ -1,0 +1,18 @@
+guid:
+title: Wash bedsheets
+description:
+context:
+  location: Master bedroom
+frequency:
+  every: 2
+  unit: WEEK
+#   nthWeekOfMonth:
+#   dayOfWeek:
+#   date:
+#     month:
+#     day:
+# sub_tasks:
+#   - description:
+#     prerequisite:
+#   - description:
+#     prerequisite:

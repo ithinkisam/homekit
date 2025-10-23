@@ -1,0 +1,42 @@
+[Frequency]
+
+[recurring]: /REC_(\d+)([DWMY])/
+Every N Days
+Every N Weeks
+Every N Months
+Every N Years
+
+REC_1D: Everyday
+REC_2W: Every two weeks
+REC_6M: Every six months
+REC_1Y: Every year
+
+
+[relative]: /REL_([1-5])_(MON|TUE|WED|THU|FRI|SAT|SUN)_([0-1][0-9])/
+Nth [Day of Week] of [Month]
+Nth [Day] of [Month]
+  Nth Day of every month [???]
+  First/Last
+
+REL_3_WED_01: Third Wednesday of January
+REL_1_SAT_05: First Saturday of May
+REL_4_THU_11: Fourth Thursday of November
+
+
+/RECL_(L|[0-3][0-9])([WMY])/
+REL_LW
+REL_LM
+REL_LY
+REL_1W
+REL_1M
+REL_1Y
+REL_15M
+
+
+[fixed]: /FIX_[01][0-9][0-3][0-9]/
+MMdd
+
+FIX_0701: July 1st
+FIX_1225: December 25th
+FIX_0101: January 1st
+

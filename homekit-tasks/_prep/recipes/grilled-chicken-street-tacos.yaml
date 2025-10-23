@@ -1,0 +1,67 @@
+UserId: abcdefgh
+RecipeId: abcdefgh-123456789012
+Name: Grilled Chicken Street Tacos
+Description: Best tacos on the planet
+Metadata:
+  - Key: PrepTime
+    Value: 90
+  - Key: CookTime
+    Value: 20
+  - Key: Serves
+    Value: 4
+Tags:
+  - Key: Rating
+    Value: 5
+  - Key: Effort
+    Value: High
+Components:
+  - Name: Chicken marinade
+    Ingredients:
+      - 1 1/2 lbs chicken tenderloins
+      - 1/4 cup olive oil
+      - 1/4 cup fresh lime juice
+      - 3 cloves garlic, minced
+      - 2 tsp ground cumin
+      - 1/2 tsp chili powder
+      - 1/4 chopped fresh cilantro
+  - Name: Corn salsa
+    Ingredients:
+      - Corn from 5-6 ears of fresh corn (or 1 12oz pk frozen corn, cooked and cooled)
+      - ¼ cup minced red onion
+      - ¼ cup chopped fresh cilantro
+      - Juice from 1-2 limes (based on lime preference)
+      - ¼ tsp kosher salt
+      - 1-2 tsp finely chopped jalapeno (optional)
+  - Name: Cilantro lime crema
+    Ingredients:
+      - 3 tbsp olive oil mayo
+      - 3 tbsp plain greek yogurt
+      - 1 tsp lime zest
+      - 2ish tsp fresh lime juice (adjust based on your lime preference)
+      - 1 clove garlic, minced
+      - ¼ cup chopped fresh cilantro
+      - ¼ tsp kosher salt
+  - Name: Other ingredients
+    Ingredients:
+      - Corn tortillas
+      - Cotija cheese, crumbled
+      - More cilantro for topping (optional)
+      - Lime wedges (optional)
+      - Tortilla chips
+Instructions:
+  - Prepare Marinade. Place chicken in a gallon ziploc bag. Add all marinade ingredients and zip closed. Massage chicken with the marinade and put in fridge for at least 6 hours.
+  - Make Corn Salsa. Toss all ingredients together in a large bowl. Best if allowed to sit in fridge for at least 30 minutes - 1 hour before serving. (Can be made in advance)
+  - Make Crema. Mix together all ingredients for the cilantro lime crema. Refrigerate until ready to serve. (Can be made in advance)
+  - Grill Chicken. Place marinated chicken tenderloins on heated grill (~400F). Cook approx. 3-4 per side (flipping once) until done. Place on cutting board and allow to set for a couple of minutes. Then chop up chicken into small pieces.
+  - Warm up corn tortillas on low heat on griddle (both sides). Keep warm by wrapping in paper towels on a plate. Alternately, you can wrap up small stacks of corn tortillas in paper towels, put on a plate, and microwave for ~30 seconds.
+  - Serve up! Assemble tacos with chicken, crema, corn salsa and cotija cheese in the warmed corn tortillas. Garnish with extra cilantro and squeezes of fresh lime juice if desired. You can also eat the corn salsa with tortilla chips.
+References:
+  - Type: link
+    Name: Crema
+    Value: https://www.myrecipes.com/recipe/fish-tacos-with-lime-cilantro-crema
+  - Type: link
+    Name: Corn salsa
+    Value: https://namelymarly.com/sweet-corn-salsa/
+  - Type: link
+    Name: Chicken marinade
+    Value: https://www.cookingclassy.com/grilled-chicken-and-avocado-street-tacos/#jump-to-recipe

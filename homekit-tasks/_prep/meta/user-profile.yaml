@@ -1,0 +1,17 @@
+UserId: abcdefgh
+Metadata:
+  - Key: PrepTime
+    Type: Number
+  - Key: CookTime
+    Type: Number
+  - Key: Serves
+    Type: Number
+Tags:
+  - Key: Effort
+    Type: String
+    Style:
+      Icon: fa-scale
+    Values:
+      - Low
+      - Moderate
+      - High
